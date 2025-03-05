@@ -1,0 +1,93 @@
+object Form2: TForm2
+  Left = 0
+  Top = 0
+  Caption = 'Form2'
+  ClientHeight = 441
+  ClientWidth = 624
+  Color = clGrayText
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -12
+  Font.Name = 'Segoe UI'
+  Font.Style = []
+  TextHeight = 15
+  object btnPrimeiro: TButton
+    Left = 8
+    Top = 16
+    Width = 297
+    Height = 65
+    Caption = 'Adicionar Texto'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Roboto Bk'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 0
+    OnClick = btnPrimeiroClick
+  end
+  object btnSegundo: TButton
+    Left = 311
+    Top = 16
+    Width = 296
+    Height = 65
+    Caption = 'Adicionar Valores'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Roboto Bk'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 1
+    OnClick = btnSegundoClick
+  end
+  object Memo1: TMemo
+    Left = 8
+    Top = 224
+    Width = 608
+    Height = 209
+    TabOrder = 2
+  end
+  object cxMemo: TEdit
+    Left = 8
+    Top = 87
+    Width = 608
+    Height = 48
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -29
+    Font.Name = 'Segoe UI'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 3
+    TextHint = 'Adiciona texto ao memo'
+  end
+  object TEdit1: TEdit
+    Left = 8
+    Top = 141
+    Width = 608
+    Height = 48
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -29
+    Font.Name = 'Segoe UI'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 4
+    TextHint = 'Adiciona texto ao memo'
+  end
+  object btnSomarValoress: TButton
+    Left = 159
+    Top = 195
+    Width = 296
+    Height = 23
+    Caption = 'Somar Valores'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Roboto Bk'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 5
+  end
+end
